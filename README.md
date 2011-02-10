@@ -10,17 +10,17 @@ Inspired by my co-worker and the [AP Style Dates and Times plugin for WordPress]
 
 __Dates__
 
-* Always use Arabic figures, withoutst,nd,rd orth.
+* Always use Arabic figures, without "st", "nd", "rd" or "th".
 * Capitalize months.
-* When a month is used with a specific date, abbreviate only Jan., Feb., Aug., Sept., Oct., Nov. and Dec. (e.g. Oct. 4 was the day of her birthday.)
-* When a phrase lists only a month and year, do not separate the month and the year with commas. (e.g. February 1980 was his best month.)
-* When a phrase refers to a month, day and year, set off the year with commas. (e.g. Aug. 20, 1964, was the day they had all been waiting for.)
+* When a month is used with a specific date, abbreviate only "Jan.", "Feb.", "Aug.", "Sept.", "Oct.", "Nov." and "Dec.". Example: Oct. 4 was the day of her birthday.
+* When a phrase lists only a month and year, do not separate the month and the year with commas. Example: February 1980 was his best month.
+* When a phrase refers to a month, day and year, set off the year with commas. Example: Aug. 20, 1964, was the day they had all been waiting for.
 
 __Time__
 
-* Use figures except for noon and midnight
-* Use a colon to separate hours from minutes (e.g. 2:30 a.m.)
-* 4 o’clock is acceptable, but time listings with a.m. or p.m. are preferred
+* Use figures except for "noon" and "midnight".
+* Use a colon to separate hours from minutes. Example: 2:30 a.m.
+* 4 o'clock is acceptable, but time listings with a.m. or p.m. are preferred.
 
 -----
 
@@ -35,7 +35,7 @@ __Time__
 
 * __"timestamp"__
     
-    "timestamp": Should, I say it SHOULD work with many different timestamp formats. If not, let me know! ;)
+    This parameter should, I say it SHOULD, work with many different timestamp formats. If not, lemme know! ;)
 
 ## Optional parameters:
 
