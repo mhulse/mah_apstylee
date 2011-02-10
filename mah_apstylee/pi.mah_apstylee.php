@@ -426,5 +426,5 @@ class Mah_apstylee {
 	
 }
 
-/* End of file pi.mah_eencode.php */
+/* End of file pi.Mah_apstylee.php */
 /* Location: ./system/expressionengine/third_party/mah_eencode/pi.mah_apstylee.php */
