@@ -8,7 +8,7 @@ $plugin_info = array(
 	'pi_name' => 'APStylee',
 	'pi_version' => '1.0',
 	'pi_author' => 'Micky Hulse',
-	'pi_author_url' => 'http://hulse.me/',
+	'pi_author_url' => 'https://github.com/mhulse/mah_apstylee',
 	'pi_description' => '[Expression Engine 2.0] APStylee: Formats date/time according to AP style standards.',
 	'pi_usage' => Mah_apstylee::usage()
 );
@@ -399,6 +399,7 @@ class Mah_apstylee {
 		?>
 		
 		More information & documentation:
+		
 		https://github.com/mhulse/mah_apstylee
 		
 		Changelog:
