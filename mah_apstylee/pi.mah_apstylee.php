@@ -114,7 +114,7 @@ class Mah_apstylee {
 			$this->ap_year = $this->_ap_year();
 		
 			// ----------------------------------
-			// Obtain "tagdata":
+			// Obtain tag data:
 			// ----------------------------------
 			
 			$tagdata = $this->EE->TMPL->tagdata;
@@ -130,6 +130,10 @@ class Mah_apstylee {
 				// "Wrapping" tag:
 				//
 				//--------------------------------------------------------------------------
+				
+				// ----------------------------------
+				// Parse variables:
+				// ----------------------------------
 				
 				$variables[] = array(
 					'ap_noon' => $this->ap_noon,
