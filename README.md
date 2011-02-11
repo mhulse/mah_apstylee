@@ -10,7 +10,7 @@ Inspired by my co-worker and the [AP Style Dates and Times plugin for WordPress]
 
 __DATES:__
 
-> Always use Arabic figures, without st, nd, rd or th. See months for examples and punctuation guidelines.
+> Always use Arabic figures, without st, nd, rd or th. *See months for examples and punctuation guidelines.*
 
 __MONTHS:__
 
@@ -22,7 +22,7 @@ __MONTHS:__
 > 
 > In tabular material, use these three-letter forms without a period: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec.
 > 
-> See dates and years.
+> *See dates and years.*
 
 __YEARS:__
 
@@ -31,9 +31,9 @@ __YEARS:__
 > Years are the lone exception to the general rule in numerals that a figure is not used to start a sentence: 1994 was a very good year.
 
 > 
-> See A.D.; B.C.; centuries; historical periods and events; and months.
+> *See A.D.; B.C.; centuries; historical periods and events; and months.*
 
-__A.D.__
+__A.D.:__
 
 > Acceptable in all references for anno Domini: in the year of the Lord.
 > 
@@ -43,9 +43,9 @@ __A.D.__
 > Do not write: The fourth century A.D. The fourth century is sufficient. If A.D. is not specified with a year, the year is presumed to be A.D.
 
 > 
-> See B.C.
+> *See B.C.*
 
-__B.C.__
+__B.C.:__
 
 > Acceptable in all references to a calendar year in the period before Christ.
 > 
@@ -55,7 +55,7 @@ __B.C.__
 > Abbreviate the Canadian province, British Columbia, as B.C. when included with a city in stories or datelines; other provinces are spelled out.
 
 > 
-> See A.D.
+> *See A.D.*
 
 __TIMES:__
 
@@ -67,7 +67,7 @@ __TIMES:__
 > 
 > Always use the a.m. and p.m.: The meeting will last from 7 p.m. to 10 p.m. (not 7 to 10 p.m.)
 > 
-> See midnight, noon and time zones.
+> *See midnight, noon and time zones.*
 
 __MIDNIGHT:__
 
@@ -75,7 +75,7 @@ __MIDNIGHT:__
 
 __NOON:__
 
-> Do not put a 12 in front of it. See midnight and times.
+> Do not put a 12 in front of it. *See midnight and times.*
 
 __TIME ZONES:__
 
@@ -84,7 +84,7 @@ __TIME ZONES:__
 > Lowercase all but the region in short forms: the Eastern time zone, Pacific time, Mountain time, etc.
 
 > 
-> See time of day for guidelines on when to use clock time in a story.
+> *See time of day for guidelines on when to use clock time in a story.*
 
 > 
 > Spell out time zone in references not accompanied by a clock reading: Chicago is in the Central time zone.
@@ -100,7 +100,7 @@ __TIME ZONES:__
 > 
 > The World Almanac contains a time zone map.
 
-__TIME OF DAY__
+__TIME OF DAY:__
 
 > The exact time of day that an event has happened or will happen is not necessary in most stories. Follow these guidelines to determine when it should be included and in what form:
 > 
@@ -128,7 +128,9 @@ __TIME OF DAY__
 > > The kidnappers set a 9 a.m. (3 a.m. PDT) deadline.
 
 > 
-> See time zones for additional guidance on forms.
+> *See time zones for additional guidance on forms.*
+
+*__Note:__ Cribbed from my work's style guide.*
 
 -----
 
