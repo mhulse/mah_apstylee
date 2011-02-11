@@ -211,9 +211,9 @@ class Mah_apstylee {
 						break;
 					
 					default:
-						$return .= ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem);
-						$return .= ', ';
-						$return .= (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_month . ' ' . $this->ap_day . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
+						$return .= ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem); // timeonly
+						$return .= ', '; // Add param for date/time separator?
+						$return .= (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_month . ' ' . $this->ap_day . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : '')); // dateonly
 					
 				}
 				
