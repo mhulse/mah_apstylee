@@ -109,7 +109,7 @@ Note: These parameter only work when the plugin is used as a single tag (i.e. th
 
 Version 1.1
 ******************
-2011/02/10: Fixed date logic for single tag.
+2011/02/10: Fixed date logic for single tag. ;)
 
 Version 1.0
 ******************

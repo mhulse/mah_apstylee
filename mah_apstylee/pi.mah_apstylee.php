@@ -178,38 +178,42 @@ class Mah_apstylee {
 				// Determine return value:
 				// ----------------------------------
 				
+				$return = '';
+				
 				switch ($this->EE->TMPL->fetch_param('return')) {
 					
 					case 'timeonly':
-						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem);
+						$return .= ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem);
 						break;
 						
 					case 'dateonly':
-						$return = $this->ap_month . ' ' . ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
+						$return .= (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_month . ' ' . $this->ap_day . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
 						break;
 					
 					case 'time':
-						$return = $this->ap_time;
+						$return .= $this->ap_time;
 						break;
 					
 					case 'meridiem':
-						$return = $this->ap_meridiem;
+						$return .= $this->ap_meridiem;
 						break;
 					
 					case 'day':
-						$return = (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day;
+						$return .= (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day;
 						break;
 					
 					case 'month':
-						$return = $this->ap_month;
+						$return .= $this->ap_month;
 						break;
 					
 					case 'year':
-						$return = $this->ap_year;
+						$return .= $this->ap_year;
 						break;
 					
 					default:
-						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem) . ', ' . $this->ap_month . ' ' . ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
+						$return .= ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem);
+						$return .= ', ';
+						$return .= (($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_month . ' ' . $this->ap_day . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
 					
 				}
 				
