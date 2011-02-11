@@ -236,7 +236,7 @@ class Mah_apstylee {
 	//--------------------------------------------------------------------------
 	
 	/**
-	 * Third segment call for plugin.
+	 * Plugin "third segment" method
 	 * 
 	 * @access     private
 	 * @return     string
