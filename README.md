@@ -67,7 +67,7 @@ Note: These parameter only work when the plugin is used as a single tag (i.e. th
 
     Wrapping: 
     {exp:mah_apstylee timestamp="{entry_date}"}
-    	{if ap_noon}Noon{if:elseif ap_midnight}Midnight{if:else}{if ap_time}{ap_time}{/if}{if ap_meridiem} {ap_meridiem}{/if}{/if}, {if ap_today}Today{if:else}{if ap_day}{ap_day}{/if}{/if} {if ap_month != ""}{ap_month}{/if}{if ap_not_year_now}{if ap_year != ""}, {ap_year}{/if}{/if}
+    	{if ap_noon}Noon{if:elseif ap_midnight}Midnight{if:else}{if ap_time}{ap_time}{/if}{if ap_meridiem} {ap_meridiem}{/if}{/if}, {if ap_today}Today{if:else}{if ap_month != ""} {ap_month}{/if} {if ap_day}{ap_day}{/if}{if ap_not_year_now}{if ap_year != ""}, {ap_year}{/if}{/if}{/if}
     {/exp:mah_apstylee}
     Returns: Noon, Feb. 3
 
