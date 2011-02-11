@@ -6,7 +6,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
 	'pi_name' => 'APStylee',
-	'pi_version' => '1.0',
+	'pi_version' => '1.1',
 	'pi_author' => 'Micky Hulse',
 	'pi_author_url' => 'https://github.com/mhulse/mah_apstylee',
 	'pi_description' => '[Expression Engine 2.0] APStylee: Formats date/time according to AP style standards.',
@@ -181,11 +181,11 @@ class Mah_apstylee {
 				switch ($this->EE->TMPL->fetch_param('return')) {
 					
 					case 'timeonly':
-						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($this->ap_noon !== TRUE) && ($this->ap_midnight !== TRUE)) ? ' ' . $this->ap_meridiem : '');
+						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem);
 						break;
 						
 					case 'dateonly':
-						$return = ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . ' ' . $this->ap_month . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
+						$return = $this->ap_month . ' ' . ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
 						break;
 					
 					case 'time':
@@ -209,7 +209,7 @@ class Mah_apstylee {
 						break;
 					
 					default:
-						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($this->ap_noon !== TRUE) && ($this->ap_midnight !== TRUE)) ? ' ' . $this->ap_meridiem : '') . ', ' . ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . ' ' . $this->ap_month . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
+						$return = ((($get_noon !== FALSE) && ($this->ap_noon === TRUE)) ? $get_noon : ((($get_midnight !== FALSE) && ($this->ap_midnight === TRUE)) ? $get_midnight : $this->ap_time)) . ((($get_noon !== FALSE & $this->ap_noon === TRUE) || ($get_midnight !== FALSE & $this->ap_midnight === TRUE)) ? '' : ' ' . $this->ap_meridiem) . ', ' . $this->ap_month . ' ' . ((($get_today !== FALSE) && ($this->ap_today === TRUE)) ? $get_today : $this->ap_day) . (($get_year === 'yes') ? ', ' . $this->ap_year : (($this->ap_year_now !== TRUE) ? ', ' . $this->ap_year : ''));
 					
 				}
 				
@@ -405,12 +405,6 @@ class Mah_apstylee {
 		More information & documentation:
 		
 		https://github.com/mhulse/mah_apstylee
-		
-		Changelog:
-		
-		Version 1.0
-		******************
-		2011/02/09: Initial public release.
 		
 		<?php
 		
