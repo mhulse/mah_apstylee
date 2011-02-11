@@ -53,9 +53,8 @@ class Mah_apstylee {
 	private $ap_year = '';
 	
 	/**
-	 * PHP 4 constructor.
-	 * Plugin won't work without it.
-	 *
+	 * PHP 4 constructor
+	 * 
 	 * @see     __construct
 	 */
 	
@@ -66,7 +65,7 @@ class Mah_apstylee {
 	
 	/**
 	 * Constructor
-	 *
+	 * 
 	 * @access     public
 	 * @return     mixed
 	 */
