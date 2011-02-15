@@ -29,7 +29,6 @@ __YEARS:__
 > Use figures, without commas: 1995. Use an s without an apostrophe to indicate spans of decades or centuries: the 1890s, the 1800s.
 > 
 > Years are the lone exception to the general rule in numerals that a figure is not used to start a sentence: 1994 was a very good year.
-
 > 
 > *See A.D.; B.C.; centuries; historical periods and events; and months.*
 
@@ -38,10 +37,8 @@ __A.D.:__
 > Acceptable in all references for anno Domini: in the year of the Lord.
 > 
 > Because the full phrase would read in the year of the Lord 96, the abbreviation A.D. goes before the figure for the year: A.D. 96.
-
 > 
 > Do not write: The fourth century A.D. The fourth century is sufficient. If A.D. is not specified with a year, the year is presumed to be A.D.
-
 > 
 > *See B.C.*
 
@@ -50,12 +47,28 @@ __B.C.:__
 > Acceptable in all references to a calendar year in the period before Christ.
 > 
 > Because the full phrase would be in the year 43 before Christ, the abbreviation B.C. is placed after the figure for the year: 43 B.C.
-
 > 
 > Abbreviate the Canadian province, British Columbia, as B.C. when included with a city in stories or datelines; other provinces are spelled out.
-
 > 
 > *See A.D.*
+
+__CENTURY:__
+
+> Lowercase, spelling out numbers less than 10: the first century, the 20th century.
+> 
+> For proper names, follow the organization’s practice: 20th Century Fox, Twentieth Century Fund, Twentieth Century Limited.
+
+__HISTORICAL PERIODS AND EVENTS:__
+
+> Capitalize the names of widely recognized epochs in anthropology, archaeology, geology and history: the Bronze Age, the Dark Ages, the Middle Ages, the Pliocene Epoch.
+> 
+> Capitalize also widely recognized popular names for the periods and events: the Atomic Age, the Boston Tea Party, the Civil War, the Exodus (of the Israelites from Egypt), the Great Depression, Prohibition.
+> 
+> Lowercase century: the 18th century.
+> 
+> Capitalize only the proper nouns or adjectives in general descriptions of a period: ancient Greece, classical Rome, the Victorian era, the fall of Rome.
+> 
+> For additional guidance, see separate entries in this book for many epochs, events and historical periods. If this book has no entry, follow the capitalization in Webster’s New World Dictionary, using lowercase if the dictionary lists it as an acceptable form for the sense in which the word is used.
 
 __TIMES:__
 
@@ -82,21 +95,16 @@ __TIME ZONES:__
 > Capitalize the full name of the time in force within a particular zone: Eastern Standard Time, Eastern Daylight Time, Central Standard Time, etc.
 > 
 > Lowercase all but the region in short forms: the Eastern time zone, Pacific time, Mountain time, etc.
-
 > 
 > *See time of day for guidelines on when to use clock time in a story.*
-
 > 
 > Spell out time zone in references not accompanied by a clock reading: Chicago is in the Central time zone.
-
 > 
 > The abbreviations EST, CDT, etc., are acceptable on first reference for zones used within the continental United States, Canada and Mexico only if the abbreviation is linked with a clock reading: noon EST, 9 a.m. PST. (Do not set the abbreviations off with commas.)
 > 
 > Spell out all references to time zones not used within the continental United States: When it is noon EDT, it is 1 p.m. Atlantic Standard Time and 8 a.m. Alaska Standard Time.
-
 > 
 > One exception to the spelled-out form: Greenwich Mean Time may be abbreviated as GMT on second reference if used with a clock reading.
-
 > 
 > The World Almanac contains a time zone map.
 
@@ -105,28 +113,21 @@ __TIME OF DAY:__
 > The exact time of day that an event has happened or will happen is not necessary in most stories. Follow these guidelines to determine when it should be included and in what form:
 > 
 > Specify the time:
-
 > 
 > * Whenever it gives the reader a better picture of the scene: Did the earthquake occur when people were likely to be home asleep or at work? A clock reading for the time in the datelined community is acceptable, although pre-dawn hours or rush hour often is more graphic.
 > * Whenever the time is critical to the story: When will the rocket be launched? When will a major political address be broadcast? What is the deadline for meeting a demand?
-
 > 
 > Deciding on clock time: When giving a clock reading, use the time in the datelined community.
-
 > 
 > If the story is undated, use the clock time in force where the event happened or will take place.
-
 > 
 > Zone abbreviations: Use EST, CDT, PST, etc., after a clock time only if necessary to avoid confusion.
-
 > 
 > Convert to Pacific Time?: Do not convert clock times from other time zones in the continental United States to Pacific time. If there is high interest in the precise time, add CDT, EST, etc., to the local reading to help readers determine their equivalent local time.
-
 > 
 > If the time is critical in a story from outside the continental United States, provide a conversion to Pacific time using this form:
 > 
 > > The kidnappers set a 9 a.m. (3 a.m. PDT) deadline.
-
 > 
 > *See time zones for additional guidance on forms.*
 
